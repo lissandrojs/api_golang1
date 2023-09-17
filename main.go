@@ -1,7 +1,10 @@
 package main
 
-// import "github.com/lissandrojs/api_golang1"
+import (
+	"api_golang1/restfull"
+)
 
 func main() {
-	print("OI")
+	r := restfull.InitialSetupRouter()
+	r.Run(":8080")
 }

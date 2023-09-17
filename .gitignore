@@ -1,0 +1,30 @@
+# Arquivos de compilação
+*.o
+*.exe
+*.test
+*.prof
+
+# Binários gerados
+/bin/
+/pkg/
+
+# Arquivos de configuração do VS Code
+.vscode/
+
+# Dependências do Go (geradas pelo "go get" ou "go mod")
+/go.sum
+/go.mod
+/vendor/
+
+# Arquivos de log e temporários
+/log/
+/tmp/
+*.log
+
+# Arquivos específicos do sistema operacional (Linux, macOS, Windows)
+.idea/
+.DS_Store
+Thumbs.db
+Este é um exemplo genérico e você pode personalizá-lo com base nas necessidades específicas do seu projeto. Por exemplo, se você estiver usando um editor ou IDE diferente, poderá precisar adicionar entradas específicas para os arquivos e diretórios gerados por ele.
+
+Além disso, se você estiver usando uma ferramenta de construção específica ou um ambiente de desenvolvimento com configurações adicionais, pode ser necessário ajustar seu .gitignore de acordo. Certifique-se de não incluir no controle de versão arquivos que são gerados automaticamente ou específicos do ambiente de desenvolvimento para manter seu repositório limpo e organizado.
